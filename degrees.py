@@ -83,7 +83,6 @@ def main():
             movie = movies[path[i + 1][0]]["title"]
             print(f"{i + 1}: {person1} and {person2} starred in {movie}")
 
-
 def shortest_path(source, target):
     """
     Returns the shortest list of (movie_id, person_id) pairs
@@ -128,7 +127,6 @@ def shortest_path(source, target):
 
     # TODO
     raise NotImplementedError
-
 
 def person_id_for_name(name):
     """
